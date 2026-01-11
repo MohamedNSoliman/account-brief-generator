@@ -1,0 +1,8 @@
+# Account Brief Generator
+pydantic>=2.0.0
+requests>=2.31.0
+duckduckgo-search>=6.0.0
+
+# Optional: LLM providers (install at least one)
+# openai>=1.0.0  # For ChatGPT/OpenAI API
+# anthropic>=0.18.0  # For Claude/Anthropic API
