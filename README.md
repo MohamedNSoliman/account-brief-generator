@@ -20,6 +20,8 @@ Generates a comprehensive account brief in markdown format with:
 
 ## Installation
 
+📋 **New to MoZilla?** Check out the [SETUP.md](SETUP.md) guide for detailed setup instructions!
+
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/MohamedNSoliman/account-brief-generator.git
@@ -105,27 +107,6 @@ python main.py -c "Ramp" -p "VP Engineering" --llm anthropic
 - Personalized email sequences (no placeholders, company-specific)
 - Enhanced LinkedIn messages
 
-## Project Structure
-
-```
-account-brief-generator/
-├── main.py              # CLI entry point
-├── app.py               # Streamlit web app
-├── requirements.txt     # Python dependencies
-├── README.md            # This file
-├── README_WEB_APP.md    # Web app deployment guide
-├── .gitignore          # Git ignore rules
-├── src/
-│   ├── __init__.py
-│   ├── prompts.py      # Prompt templates
-│   ├── renderer.py     # Markdown rendering logic
-│   ├── researcher.py   # Web research (DuckDuckGo)
-│   └── llm_researcher.py  # LLM integration
-└── outputs/            # Generated briefs (gitignored)
-    └── <company>/
-        └── <company>-v<N>.md
-```
-
 ## Why It's Useful for AEs
 
 **Save Time:** Generate a complete account brief in seconds instead of manually researching and drafting outreach materials.
@@ -136,16 +117,4 @@ account-brief-generator/
 
 **Be Prepared:** Have objection responses, discovery questions, and email templates ready before your first interaction.
 
-**Focus on Execution:** Spend less time on prep work and more time on selling. With LLM integration, get personalized content ready to send.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source. Feel free to use and modify as needed.
-
-## Support
-
-For issues or questions, please open an issue on [GitHub](https://github.com/MohamedNSoliman/account-brief-generator/issues).
+**Focus on Execution:** Spend less time on prep work and more time on selling. Fill in the template placeholders with account-specific research and start outreach immediately.
